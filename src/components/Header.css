@@ -1,0 +1,108 @@
+body {
+    background-color: #febc94; /* Apply background color to the entire page */
+}
+
+.navbar {
+    background-color: #febc94;
+  }
+  
+  .navbar-brand {
+    font-size: 1.25rem;
+    font-weight: bold; 
+    padding-left: 180px;
+    padding-right: 180px;
+    
+  }
+  
+  .nav-link {
+    text-align: center;
+    margin-right: 1rem; 
+  }
+  
+  .btn-outline-success {
+    color: #28a745;
+    border-color: #28a745; 
+  }
+  
+  .btn-success {
+    background-color: #28a745; 
+    border-color: #28a745; 
+  }
+  
+
+
+/* .navbar {
+    background-color: #f8f9fa; 
+    padding: 20px 50px;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    color: #2e3a4a; 
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 18px;
+    padding: 8px 20px;
+  }
+  
+  .navbar-nav .btn-success {
+    background-color: #28a745;
+  }
+  
+  .navbar-nav .btn-outline-success {
+    border-color: #28a745;
+    color: #28a745;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  } */
+/*   
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28238, 238, 238, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  } */
+  
+  /* Hero Section Styling */
+  .hero-section {
+    padding: 80px 0;
+  }
+  
+  .hero-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #2e3a4a;
+  }
+  
+  .hero-section p {
+    font-size: 20px;
+    color: #6c757d;
+  }
+  
+  .hero-section button {
+    font-size: 18px;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 20px;
+    }
+  
+    .navbar-brand {
+      font-size: 20px;
+    }
+  
+    .hero-section h1 {
+      font-size: 36px;
+    }
+  
+    .hero-section p {
+      font-size: 16px;
+    }
+  
+    .hero-section {
+      padding: 50px 0;
+    }
+  }
+  

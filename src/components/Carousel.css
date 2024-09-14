@@ -1,0 +1,93 @@
+.carousel-container {
+    padding: 50px 0;
+  }
+  
+  .carousel-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    color: #333;
+    text-align: left; /* Align text to the left */
+    padding-left: 70px; /* Add 70px padding from the left */
+  }
+  
+  .carousel-subtitle {
+    font-family: 'Roboto', sans-serif;
+    color: #666;
+    margin-bottom: 30px;
+    text-align: left; /* Align text to the left */
+    padding-left: 70px; /* Add 70px padding from the left */
+  }
+  
+  /* Wrapper to control carousel width and overflow */
+  .carousel-wrapper {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    padding: 0 50px; /* Add space at the beginning and the end of the carousel */
+  }
+  
+  .d-flex {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    margin-left: 30px; 
+    padding-left: 270px; /* Add space on left */
+    padding-right: 20px; /* Add space on right */
+  }
+  
+  .card-container {
+    flex: 0 0 250px; /* Make each card 250px wide */
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .profile-img {
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .card-details h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .card-details p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Social Icons Styling */
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #4CAF50;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #333; 
+  }
+  
+  /* Customizing each icon */
+  .social-icons .fa-facebook {
+    color: #3b5998; 
+  }
+  
+  .social-icons .fa-instagram {
+    color: #C13584; 
+  }
+  
+  .social-icons .fa-twitter {
+    color: #1DA1F2;
+  }
+  

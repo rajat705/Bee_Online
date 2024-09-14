@@ -1,0 +1,58 @@
+.footer-section {
+    background-color: #f9f9f9; 
+    padding: 50px 0;
+    color: #2e3a4a; 
+  }
+  
+  .footer-section h5 {
+    font-weight: 700;
+    color: #2e3a4a;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+    color: #6c757d; 
+  }
+  
+  .footer-section ul li i {
+    margin-right: 10px;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #e0e0e0; /* Top border to separate footer bottom */
+    padding-top: 20px;
+  }
+  
+  .footer-bottom p {
+    color: #6c757d;
+    font-size: 14px;
+  }
+  
+  .social-icons .social-icon {
+    color: #6c757d;
+    margin-right: 15px;
+    font-size: 18px;
+  }
+  
+  .social-icons .social-icon:hover {
+    color: #34a853; /* Change color on hover to match the design */
+  }
+  
+  /* Mobile view */
+  @media (max-width: 768px) {
+    .footer-bottom {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .social-icons {
+      margin-top: 15px;
+    }
+  }
+  
