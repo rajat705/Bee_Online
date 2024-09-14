@@ -59,7 +59,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-bottom d-flex justify-content-between align-items-center mt-4">
-          <p>Made With Love By Figmaland All Rights Reserved</p>
+          <p>Developed By Rajat Nagar.  © 2024 All Rights Reserved</p>
           <div className="social-icons">
             <FaFacebookF className="social-icon" />
             <FaInstagram className="social-icon" />

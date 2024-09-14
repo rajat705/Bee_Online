@@ -1,108 +1,122 @@
-body {
-    background-color: #febc94; /* Apply background color to the entire page */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+.header {
+  background-color: #FAD1B7;
+  padding: 25px 0;
+  font-family: 'Poppins', sans-serif;
 }
 
-.navbar {
-    background-color: #febc94;
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+}
+
+.navbar-nav .nav-link {
+  position: relative;
+  font-size: 16px;
+  color: #666;
+  margin-left: 20px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ff5e5e;
+  transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: #ff5e5e;
+}
+
+.navbar-nav .nav-link.active::after,
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+.auth-buttons .btn-link {
+  color: #88b388;
+  margin-right: 10px;
+}
+
+.auth-buttons .btn-success {
+  background-color: 396BA7B;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.text-section {
+  margin-top: 20px;
+}
+
+.welcome-text {
+  color: 396BA7B;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.main-heading {
+  color: #333;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.sub-heading {
+  color: #666;
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+.btn-group .btn {
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.btn-outline-success {
+  border-color: 396BA7B;
+  color: 396BA7B;
+}
+
+.image-section {
+  text-align: right;
+}
+
+.header-image {
+  max-width: 100%;
+  max-height: 120%;
+  border-radius: 30px;
+}
+
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: 36px;
   }
-  
-  .navbar-brand {
-    font-size: 1.25rem;
-    font-weight: bold; 
-    padding-left: 180px;
-    padding-right: 180px;
-    
+
+  .header-content {
+    padding: 30px 0;
   }
-  
-  .nav-link {
+
+  .text-section, .image-section {
     text-align: center;
-    margin-right: 1rem; 
   }
-  
-  .btn-outline-success {
-    color: #28a745;
-    border-color: #28a745; 
-  }
-  
-  .btn-success {
-    background-color: #28a745; 
-    border-color: #28a745; 
-  }
-  
 
+  .image-section {
+    margin-top: 20px;
+  }
 
-/* .navbar {
-    background-color: #f8f9fa; 
-    padding: 20px 50px;
+  .auth-buttons {
+    margin-top: 15px;
+    text-align: center;
   }
-  
-  .navbar-brand {
-    font-weight: bold;
-    font-size: 24px;
-    color: #2e3a4a; 
-  }
-  
-  .navbar-nav .nav-link {
-    font-size: 18px;
-    padding: 8px 20px;
-  }
-  
-  .navbar-nav .btn-success {
-    background-color: #28a745;
-  }
-  
-  .navbar-nav .btn-outline-success {
-    border-color: #28a745;
-    color: #28a745;
-  }
-  
-  .navbar-toggler {
-    border: none;
-  } */
-/*   
-  .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28238, 238, 238, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-  } */
-  
-  /* Hero Section Styling */
-  .hero-section {
-    padding: 80px 0;
-  }
-  
-  .hero-section h1 {
-    font-size: 48px;
-    font-weight: bold;
-    color: #2e3a4a;
-  }
-  
-  .hero-section p {
-    font-size: 20px;
-    color: #6c757d;
-  }
-  
-  .hero-section button {
-    font-size: 18px;
-  }
-  
-  @media (max-width: 768px) {
-    .navbar {
-      padding: 20px;
-    }
-  
-    .navbar-brand {
-      font-size: 20px;
-    }
-  
-    .hero-section h1 {
-      font-size: 36px;
-    }
-  
-    .hero-section p {
-      font-size: 16px;
-    }
-  
-    .hero-section {
-      padding: 50px 0;
-    }
-  }
-  
+}
